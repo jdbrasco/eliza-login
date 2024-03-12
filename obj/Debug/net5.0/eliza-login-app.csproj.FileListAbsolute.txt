@@ -23,7 +23,6 @@ C:\TFS\smag\eliza-login\obj\Debug\net5.0\scopedcss\bundle\eliza-login-app.styles
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\eliza-login-app.TagHelpers.input.cache
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\eliza-login-app.TagHelpers.output.cache
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\eliza-login-app.RazorCoreGenerate.cache
-C:\TFS\smag\eliza-login\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -38,3 +37,5 @@ C:\TFS\smag\eliza-login\obj\Debug\net5.0\ref\eliza-login-app.dll
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\eliza-login-app.pdb
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\eliza-login-app.genruntimeconfig.cache
 C:\TFS\smag\eliza-login\obj\Debug\net5.0\eliza-login-app.csproj.CopyComplete
+C:\TFS\smag\eliza-login\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\TFS\smag\eliza-login\obj\Debug\net5.0\Razor\Views\Home\Start.cshtml.g.cs

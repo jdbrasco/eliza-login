@@ -1,0 +1,21 @@
+﻿@model string;
+
+@{
+    ViewData["Title"] = "Start";
+}
+
+<!------ Include the above in your HEAD tag ---------->
+
+<body>
+    <div id="login">
+        <h3 class="text-center text-white pt-5">Welcome to our website</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Thank you for signing in: @Model</p><br />
+                    <a asp-action="Login" asp-controller="Home" class="btn btn-info btn-md">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

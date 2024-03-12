@@ -18,10 +18,23 @@ namespace eliza_login_app.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Start(string user = "Default") {
+            return View("Start", user);
+        }
+
+        [HttpPost]
+        public IActionResult Start(LoginModel login) {
+            var _user = login.userName;
+
+            return View("Start", _user);
+        }
+
 
         public IActionResult Privacy()
         {
@@ -34,4 +47,10 @@ namespace eliza_login_app.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
+}
+
+public class LoginModel {
+    public string userName { get; set; }
+    public string password { get; set; }
+    public string rememberMe { get; set; }
 }
